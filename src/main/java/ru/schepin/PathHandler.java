@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PathHandler {
-    public ArrayList<Node> findPath(Node finish, List<Node> visited, int[][] marked) {
+    public ArrayList<Node> buildPath(Node finish, List<Node> visited, int[][] marked) {
         ArrayList<Node> shortestWay = new ArrayList<>();
         shortestWay.add(finish);
-        int curentMarkPoint = Solution.marked[finish.getY()][finish.getX()];
+        int curentMarkPoint = marked[finish.getY()][finish.getX()];
         Node currentNode = finish;
         int nextMarkPoint = curentMarkPoint - 1;
         while (nextMarkPoint >= 0) {

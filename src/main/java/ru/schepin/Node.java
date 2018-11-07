@@ -8,12 +8,10 @@ public class Node {
     private int y;
     private List<Node> near;
 
-
-
     public Node(int x, int y) {
         this.x = x;
         this.y = y;
-        }
+    }
 
     public Node() {
     }
@@ -35,8 +33,6 @@ public class Node {
     }
 
 
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -51,8 +47,6 @@ public class Node {
 
         return Objects.hash(x, y);
     }
-
-
 
 
     public List<Node> getNear() {
