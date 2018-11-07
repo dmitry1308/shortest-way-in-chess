@@ -1,4 +1,4 @@
-package ru.schepin;
+package ru.schepin.models;
 
 import java.util.List;
 import java.util.Objects;

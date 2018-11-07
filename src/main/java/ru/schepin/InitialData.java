@@ -1,10 +1,12 @@
 package ru.schepin;
 
+import ru.schepin.models.Node;
+
 import java.util.Arrays;
 import java.util.List;
 
 public class InitialData {
-    static List<Node> barriers =
+    public static List<Node> barriers =
             Arrays.asList(
                     new Node(1, 1),
                     new Node(2, 1),
@@ -17,10 +19,10 @@ public class InitialData {
                     new Node(2, 4),
                     new Node(3, 4));
 
-    static Node field = new Node(12, 12);
+    public static Node field = new Node(12, 12);
 
-    static Node start = new Node(2, 0);
-    static Node finish = new Node(6, 10);
+    public static Node start = new Node(2, 0);
+    public static Node finish = new Node(6, 10);
 
 
 }

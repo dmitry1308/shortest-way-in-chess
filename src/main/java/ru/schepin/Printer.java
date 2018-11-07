@@ -1,5 +1,7 @@
 package ru.schepin;
 
+import ru.schepin.models.Node;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
